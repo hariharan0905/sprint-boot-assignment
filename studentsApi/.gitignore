@@ -1,0 +1,94 @@
+# -------------------------------------
+# Java Build and Class Files
+# -------------------------------------
+*.class
+*.jar
+*.war
+*.ear
+
+# -------------------------------------
+# Gradle
+# -------------------------------------
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Cache & Logs
+.gradle/
+**/build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+!gradle-wrapper.jar
+
+# Gradle Distribution
+gradle-app.setting
+gradle-app.iml
+
+# -------------------------------------
+# IntelliJ IDEA
+# -------------------------------------
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# -------------------------------------
+# VS Code
+# -------------------------------------
+.vscode/
+*.code-workspace
+
+# -------------------------------------
+# OS Files
+# -------------------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------------------
+# Logs
+# -------------------------------------
+*.log
+logs/
+*.pid
+*.seed
+*.swp
+
+# -------------------------------------
+# Test and Coverage Reports
+# -------------------------------------
+test-output/
+surefire-reports/
+jacoco.exec
+coverage/
+.jacoco/
+
+# -------------------------------------
+# Application Properties (Optional)
+# Uncomment below if you store secrets here
+# -------------------------------------
+# src/main/resources/application.properties
+# src/main/resources/application.yml
+# .env
+
+# -------------------------------------
+# Local Databases or Temp Files
+# -------------------------------------
+*.h2.db
+*.mv.db
+*.sqlite
+*.tmp
+*.bak
+*.old
+*.orig
+*.save
+*.swp
+
+# -------------------------------------
+# Node Modules (if using frontend like React)
+# -------------------------------------
+node_modules/
+dist/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
